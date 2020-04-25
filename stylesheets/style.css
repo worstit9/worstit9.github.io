@@ -1,0 +1,40 @@
+#topOfPage{
+    text-align: center;
+    color: orange;
+}
+
+#topOfPage h2{
+    color: blue;
+}
+
+#mainContent{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.box{
+    border: 3px dotted yellow;
+    min-height: 300px;
+    width: 30%;
+    padding: 20px;
+    color: green;
+    float: left;
+}
+
+.special{
+    border: 6px solid coral;
+    height: 200px;
+    width: 80%;
+}
+.spBox{
+    text-align: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+    width: calc(100% / 3);    /*spacing is a must*/
+    transform: translate(50%,50%);
+}
+
+
