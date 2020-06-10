@@ -1,0 +1,27 @@
+
+.navbar{
+    background-color: hsl(300,40%,80%);
+    padding:10px;
+    font-size:24px;
+}
+
+.xooxle{
+    width:150px;
+    float:left;
+    margin:10px;
+}
+
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    padding-right:1.5em;
+}
+
+.search{
+    width:500px;
+    height:30px;
+}

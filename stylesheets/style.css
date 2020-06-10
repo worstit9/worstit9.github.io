@@ -8,26 +8,29 @@
 }
 
 #mainContent{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color:blue;
+    background-color: red;
+    margin:0 0 20px 0;
 }
 
 
 .box{
     border: 3px dotted yellow;
-    min-height: 300px;
-    width: 30%;
-    padding: 20px;
-    color: green;
-    float: left;
+    background-color: rosybrown;
+    margin:0 0 10px 0;
+    
+    
 }
 
 .special{
     border: 6px solid coral;
     height: 200px;
     width: 80%;
+    background-color: #123;
+    margin:0 0 10px 0;
 }
 .spBox{
     text-align: center;
@@ -35,6 +38,15 @@
     background-color: cornflowerblue;
     width: calc(100% / 3);    /*spacing is a must*/
     transform: translate(50%,50%);
+}
+
+#navBar{
+    background-color:rgba(60,20,175,0.3);
+    width:100%;
+    
+    position:sticky;
+    top:0;
+    left:0;
 }
 
 
